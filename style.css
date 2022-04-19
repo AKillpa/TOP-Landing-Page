@@ -1,12 +1,177 @@
-/* For visualization */
-ul {
-    border: 2px solid orange;
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+    font-size: 16px;
+    align-items: center;
 }
 
 li {
-    border: 2px solid aquamarine
+    list-style: none;
+
 }
 
-div {
-    border: 3px solid lightseagreen
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
+}
+
+/* ********** First section code ********* */
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 0px 40px 0px;
+}
+
+.header-logo > img {
+    width: 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.logo-and-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 12px 0px 12px;
+}
+
+.stuff {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 12px;
+}
+
+.header-content > h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.header-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ********** Second section code ********** */
+.main-content1 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+    gap: 8px;
+}
+
+.card-images {
+    display: flex;
+    gap: 40px;
+}
+
+.card-images > img {
+    width: 150px;
+    height: auto;
+    border: #3882F6 solid 4px;
+    border-radius: 10px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 750px;
+}
+
+.card-text > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+}
+
+/* ********** Third Section ********** */
+.main-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10em;
+  background-color: #E5E7EB;
+  padding: 0em 8em;
+  gap: 5px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    text-align: end;
+}
+
+/* ******** Fourth Section ******** */
+.main-content3 {
+    display: flex;
+    justify-content: center;
+    padding: 5em 5em;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 5em;
+    gap: 2em;
+}
+
+.call-text {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#text {
+    font-size: 24px;
+    font-weight: 700;;
+}
+
+#button {
+    border: 2px solid #F9FAF8;
+    padding: 2px 16px;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 26px;
+    justify-content: center;
+    color: #F9FAF8;
 }
